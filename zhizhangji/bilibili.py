@@ -11,7 +11,7 @@ UPNAME = '智障姬'
 WORKDIC = sys.argv[0].split('bilibili.py')[0]
 VIDEOCOUNT = WORKDIC+'videoCount.txt'
 contrastDic = '/home/videoCount.txt'
-
+#这个是卧龙寺发布的视频量的txt文件，去掉message中的getTodaySendVideo(contrastDic)，这个py文件就可以独立运行了
 BV = WORKDIC+'bv.txt'
 FANSCOUNT = WORKDIC+'fansCount.txt'
 VIDEOSENDTIME = WORKDIC+'lastSendTime.txt'
