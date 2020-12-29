@@ -7,11 +7,6 @@ WORKDIC = sys.argv[0].split('likes.py')[0]
 BV=WORKDIC+'bv.txt'
 VIDEOINFOURL = 'https://api.bilibili.com/x/space/arc/search?mid='
 upmid = "258457966"
-data={
-    'pn':1,
-    'type':1,
-    'oid':885818868
-}
 headers = {
     'accept': 'application/json, text/javascript, */*; q=0.01',
     'accept-encoding': 'gzip, deflate, br',
