@@ -18,7 +18,6 @@ VIDEOSENDTIME = WORKDIC+'lastSendTime.txt'
 NETWORKVIDEOCOUNT = 5
 DataList = [VIDEOCOUNT,BV,FANSCOUNT,VIDEOSENDTIME]
 VIDEOINFOURL = 'https://api.bilibili.com/x/space/arc/search?mid='
-print()
 def init():
     for i in DataList:
         if(os.path.exists(i)==bool('')):
